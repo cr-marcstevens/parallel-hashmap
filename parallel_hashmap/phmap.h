@@ -2392,7 +2392,7 @@ public:
                                 const value_type&, value_type&>;
         using pointer           = phmap::remove_reference_t<reference>*;
         using difference_type   = typename parallel_hash_set::difference_type;
-        using Inner             = typename parallel_hash_set::Inner;
+//        using Inner             = typename parallel_hash_set::Inner;
         using EmbeddedSet       = typename parallel_hash_set::EmbeddedSet;
         using EmbeddedIterator  = typename EmbeddedSet::iterator;
 
@@ -2460,7 +2460,7 @@ public:
         using reference         = typename parallel_hash_set::const_reference;
         using pointer           = typename parallel_hash_set::const_pointer;
         using difference_type   = typename parallel_hash_set::difference_type;
-        using Inner             = typename parallel_hash_set::Inner;
+//        using Inner             = typename parallel_hash_set::Inner;
 
         const_iterator() {}
         // Implicit construction from iterator.
